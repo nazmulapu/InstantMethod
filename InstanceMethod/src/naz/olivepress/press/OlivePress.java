@@ -6,6 +6,16 @@ import naz.olivepress.olives.Olive;
 
 public class OlivePress {
 	
+	private int totalOil = 0;
+	
+	public int getTotalOil() {
+		return totalOil;
+	}
+
+	private void setTotalOil(int totalOil) {
+		this.totalOil += totalOil;
+	}
+
 	public OlivePress(){
 		
 	}
@@ -18,7 +28,9 @@ public class OlivePress {
 			oil += olive.crush();
 		}
 		
-		System.out.println("You got " + oil + " units of oil");
+		setTotalOil(oil);
+		
+		
 	}
 
 }
