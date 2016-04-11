@@ -27,7 +27,7 @@ public class Olive {
 	}
 
     public int crush() {
-		System.out.println("ouch!");
+		System.out.println("crush from superclass");
 		return oil;
 	}
 

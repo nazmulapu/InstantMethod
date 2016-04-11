@@ -1,6 +1,6 @@
 package naz.olivepress.press;
 
-import java.util.ArrayList;
+import java.util.Collection;
 
 import naz.olivepress.olives.Olive;
 
@@ -20,7 +20,7 @@ public class OlivePress {
 		
 	}
 	
-	public void getOil(ArrayList<Olive> olives){
+	public void getOil(Collection<Olive> olives){
 		
 		int oil = 0;
 		
