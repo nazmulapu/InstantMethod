@@ -1,18 +1,8 @@
 package naz.olivepress;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+
 import java.util.ArrayList;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 
 import naz.olivepress.olives.Kalamata;
 import naz.olivepress.olives.Ligurian;
@@ -53,6 +43,9 @@ public class Main {
 		
 		Kalamata olive1 = (Kalamata)olives.get(0);
 		System.out.println("Olive 1 is from " +olive1.getOrigin());
+		
+		System.out.println("Now get your important olive oil links from oliveUrl.java");
+		
 	}
 
 	
